@@ -82,6 +82,6 @@
 	{
 		"name": "grunt-typedoc",
 		"url": "https://github.com/TypeStrong/grunt-typedoc",
-		"options": ["module:'commonjs'","out:'./docs'","name:'my-project'","target:'es5'"]
+		"options": ["name:'APP API-Doc'", "out:'./docs'", "module:'commonjs'", "target:'es5'", "hideGenerator:true"]
 	}
 ]
