@@ -83,5 +83,10 @@
 		"name": "grunt-typedoc",
 		"url": "https://github.com/TypeStrong/grunt-typedoc",
 		"options": ["name:'APP API-Doc'", "out:'./docs'", "module:'commonjs'", "target:'es5'", "hideGenerator:true"]
+	},
+	{
+		"name": "grunt-include-file",
+		"url": "https://github.com/Sjeiti/grunt-include-file",
+		"options": ["cwd:'test/fixtures/'","src:[]","dest:'inlude_file-output/'"]
 	}
 ]
